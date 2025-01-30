@@ -12,17 +12,20 @@ After  training and testing several models,  their performance when compared usi
 2.	Preprocessing: Clean and prepare the data for analysis.
 3.	Model Training: Train multiple models (e.g., logistic regression, random forest, support vector machine, etc.). Split the dataset into training, validation, and testing subsets.
 4.	Model Evaluation:	Compare performance metrics for all models.
-Key Metrics and Graphs
+
 # Visualization
 •	Confusion Matrix:
-o	The Confusion Matrix helps us visualize how well the model is classifying transactions. It shows how many fraudulent transactions (fraudulent or legitimate) are correctly or incorrectly predicted by the model. The matrix has four parts:
-	True Positive (TP): Correctly identified fraud.
-	True Negative (TN): Correctly identified legitimate transactions.
-	False Positive (FP): Legitimate transactions wrongly identified as fraud.
-	False Negative (FN): Fraudulent transactions wrongly identified as legitimate.
-o	By understanding the confusion matrix, we  assessed how many fraud cases were missed (False Negatives) or incorrectly flagged as fraud (False Positives).
+The Confusion Matrix helps us visualize how well the model is classifying transactions. It shows how many fraudulent transactions (fraudulent or legitimate) are correctly or incorrectly predicted by the model. The matrix has four parts:
+1. True Positive (TP): Correctly identified fraud.
+2. True Negative (TN): Correctly identified legitimate transactions.
+3. False Positive (FP): Legitimate transactions wrongly identified as fraud.
+4. False Negative (FN): Fraudulent transactions wrongly identified as legitimate.
+By understanding the confusion matrix, we  assessed how many fraud cases were missed (False Negatives) or incorrectly flagged as fraud (False Positives).
+
 •	ROC Curve was used to measure how well the model distinguishes between fraud and legitimate transactions. It plots the True Positive Rate (sensitivity) against the False Positive Rate (1 - specificity). A score closer to 1 indicates a better model, while a score closer to 0.5 suggests the model is not performing well.
 o	ROC AUC was used to measure the likelihood that the model ranks a randomly chosen fraudulent transaction higher than a randomly chosen legitimate transaction.
+
 •	The Feature Importance Ranking graph shows the relative importance of each feature in predicting fraudulent transactions. For example, it might reveal that the transaction amount, location, or time of day is more important than other features in detecting fraud.
-5.	Model Selection: Random Forest Classifier was chosen as the model that performs best and meets the project's requirements.
+# Model Selection
+Model Selection: Random Forest Classifier was chosen as the model that performs best and meets the project's requirements.
 
