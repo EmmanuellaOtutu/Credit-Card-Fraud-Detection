@@ -23,7 +23,8 @@ The Confusion Matrix helps us visualize how well the model is classifying transa
 By understanding the confusion matrix, we  assessed how many fraud cases were missed (False Negatives) or incorrectly flagged as fraud (False Positives).
 
 •	ROC Curve was used to measure how well the model distinguishes between fraud and legitimate transactions. It plots the True Positive Rate (sensitivity) against the False Positive Rate (1 - specificity). A score closer to 1 indicates a better model, while a score closer to 0.5 suggests the model is not performing well.
-o	ROC AUC was used to measure the likelihood that the model ranks a randomly chosen fraudulent transaction higher than a randomly chosen legitimate transaction.
+
+• ROC AUC was used to measure the likelihood that the model ranks a randomly chosen fraudulent transaction higher than a randomly chosen legitimate transaction.
 
 •	The Feature Importance Ranking graph shows the relative importance of each feature in predicting fraudulent transactions. For example, it might reveal that the transaction amount, location, or time of day is more important than other features in detecting fraud.
 # Model Selection
