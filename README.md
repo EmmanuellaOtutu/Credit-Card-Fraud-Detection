@@ -10,9 +10,7 @@ After  training and testing several models,  their performance when compared usi
 # Common Workflow
 1.	Exploratory Data Analysis (EDA): Understand the data and its features.
 2.	Preprocessing: Clean and prepare the data for analysis.
-3.	Model Training:
-o	Train multiple models (e.g., logistic regression, random forest, support vector machine, etc.).
-o	Split the dataset into training, validation, and testing subsets.
+3.	Model Training: Train multiple models (e.g., logistic regression, random forest, support vector machine, etc.). Split the dataset into training, validation, and testing subsets.
 4.	Model Evaluation:
 o	Compare performance metrics for all models.
 Key Metrics and Graphs
