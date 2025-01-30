@@ -1,6 +1,6 @@
 # Credit Card Customer Segmentation 
-The goal of this project is to create a machine learning model that can accurately detect fraudulent credit card transactions. Fraudulent transactions can lead to financial losses for both businesses and customers, so it's crucial to identify them quickly. The dataset contained 568,629 transactions out of which were fraudulent (1) or normal transactions. 	
-#Algorithms Used
+The goal of this project is to create a machine learning model that can accurately detect fraudulent credit card transactions. Fraudulent transactions can lead to financial losses for both businesses and customers, so it's crucial to identify them quickly. The dataset contained 568,629 transactions out of which were fraudulent (1) or normal transactions (0). 	
+# Algorithms Used
 Models like Random Forest, Logistic Regression, or XGBoost were used since they handle both linear and non-linear relationships and perform well in binary classification tasks. 
 1.	Random Forest is often a strong candidate due to its ability to handle complex   patterns and feature interactions.
 2.	Logistic Regression and SVM are simpler models that could also perform well if the relationships in the data are relatively straightforward.
